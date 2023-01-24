@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Hedder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: orange;
+    margin: 0 0 15px 0;
+    height: 70px;
+
+}
+
+.productsercher {
+    margin: 25px;
+}
+
+.parentContainer {
+    display: flex;
+}
+
+.containerFilter {
+    width: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+span {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    line-height: 20px;
+}
+
+.iconbox {
+    width: 100px;
+    display: inline-block;
+    margin: 15px;
+    width: 30px;
+    position: relative;
+}
+
+.bi-cart {
+    font-size: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    padding: 30px;
+    grid-gap: 35px;
+}
+
+.sub_container {
+    background-color: azure;
+    box-shadow: 5px 5px 8px 5px  black;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+}
+
+.productDetails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productContainer {
+    width: 900px;
+    height: 300px;
+    margin: 0 0 25px 0;
+    border: 1px solid black;
+}
+
+.productContainer {
+    display: flex;
+}
+
+.imgcontainer {
+    width: 200px;
+    height: 300px;
+}
+
+.cartImg {
+    width: 100%;
+}
+
+.total {
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border: 1px solid black;
+}
+
+.selectedProduct {
+    width: 450px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* paymrnt form */
+.card-details {
+    padding: 25px;
+    margin: 10px;
+    width: 450px;
+    background-image: url("img/payment.jpg");
+    background-size: cover;
+    opacity: 5;
+}
+
+.space {
+    margin: 8px;
+}
+
+.paymentcontainer {
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+}
+
+.paymentDetail {
+    border: 5px solid black;
+    width: 300px;
+    height: auto;
+}
